@@ -1,0 +1,28 @@
+body {
+  font-family: "Merriweather", serif;
+}
+.header {
+  text-align: center;
+  background-image: url(../images/Banner\ Image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: brightness(80%);
+}
+
+.banner {
+  padding-top: 115px;
+  height: 500px;
+  margin: 50px 150px 0px 150px;
+}
+header .banner-happy {
+  font-size: 25px;
+  font-weight: 400;
+  color: #ffff;
+}
+header .banner-party {
+  /* width: 600px; */
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 80px;
+  color: #ffff;
+}
