@@ -6,7 +6,6 @@ body {
   background-image: url(../images/Banner\ Image.png);
   background-repeat: no-repeat;
   background-position: center;
-  filter: brightness(80%);
 }
 
 .banner {
@@ -25,4 +24,31 @@ header .banner-party {
   font-weight: 900;
   line-height: 80px;
   color: #ffff;
+}
+.hero {
+  color: red;
+  text-align: center;
+}
+
+main .offer {
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.holiday {
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.categories {
+  color: black;
+  font-size: 45px;
+  font-weight: 700;
+  font-style: bold;
+  margin-top: auto;
+}
+.new-year-photo {
+  width: 700px;
+  height: 450px;
 }
