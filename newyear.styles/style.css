@@ -143,6 +143,53 @@ strong {
   color: black;
   line-height: 25px;
 }
+.product {
+  width: 85%;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 30px rgba(167, 157, 254, 0.2);
+  display: flex;
+  margin: 30px auto;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  margin-top: 20px;
+  position: relative;
+  background-size: 1000px;
+  border-radius: 10px;
+  line-height: 30px;
+}
+.gifts {
+  color: red;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 10px;
+}
+.portfolio {
+  color: black;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 10px;
+}
+
+.innovative {
+  color: rgba(229, 110, 110, 0.755);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.product-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.product-box:hover {
+  background-color: #ffff;
+  box-shadow: 2px 2px 30px;
+  gap: 20px;
+  border-radius: 12px;
+  animation-duration: 0.5s;
+}
+
 .NotificationInput input {
   width: 500px;
   height: 60px;
