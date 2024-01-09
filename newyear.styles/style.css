@@ -99,6 +99,7 @@ main .offer {
   margin: 30px 40px 0px 500px;
   border-radius: 5px;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 strong {
   color: #ff0000;
@@ -116,4 +117,75 @@ strong {
   border-radius: 10px;
   animation-duration: 1.3s;
   cursor: grabbing;
+}
+.information {
+  background-color: #fef2f2;
+  width: 1400px;
+  height: 400px;
+  text-align: center;
+  margin: 30px 40px 40px 130px;
+  border-radius: 5px;
+  padding-top: 0%;
+  padding-bottom: 50px;
+}
+.latter-img {
+  width: 120px;
+  height: 120px;
+}
+.subscribe-latter {
+  font-size: 45px;
+  font-weight: 900;
+  color: black;
+}
+.text-sms {
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+  line-height: 25px;
+}
+.NotificationInput input {
+  width: 500px;
+  height: 60px;
+  border: none;
+  outline: none;
+  background-color: #ffff;
+  justify-content: center;
+  border-radius: 50px 0px 0px 50px;
+  padding-left: 50px;
+  font-size: 20px;
+}
+.NotificationInput a {
+  text-decoration: none;
+}
+.subscribe-btn {
+  width: 195px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  align-items: center;
+  text-transform: uppercase;
+  border-radius: 0px 50px 50px 0px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  padding: 20px 20px 20px 21px;
+}
+.location {
+  background-color: #070211;
+  color: #ffff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  height: 500px;
+  margin-top: 20px;
+}
+.col-1,
+.col-2 {
+  width: 200px;
+  height: 320px;
+}
+.col-3,
+.col-4 {
+  width: 190px;
+  height: 0px;
 }
