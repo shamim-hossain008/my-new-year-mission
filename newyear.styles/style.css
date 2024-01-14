@@ -1,5 +1,7 @@
 body {
   font-family: "Merriweather", serif;
+  margin: 0;
+  padding: 0;
 }
 .header {
   text-align: center;
@@ -19,7 +21,6 @@ header .banner-happy {
   color: #ffff;
 }
 header .banner-party {
-  /* width: 600px; */
   font-size: 60px;
   font-weight: 900;
   line-height: 80px;
@@ -107,13 +108,13 @@ strong {
 
 /* coming section */
 .offer-banner {
-  width: 1600px;
+  /* width: 100%; */
   height: 700px;
   background-color: #ffff;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 20px;
+  padding: 100px 100px;
 }
 .best-offer {
   color: red;
@@ -132,13 +133,13 @@ strong {
   width: 300px;
   border: 15px solid red;
   padding: 23px 100px 15px 34px;
-  margin: 180px;
+  margin: 20px;
   border-radius: 50%;
 }
 /* section end */
 
 .functional-offer {
-  width: 1500px;
+  width: 100%;
   height: 800px;
   background-color: #ffff;
   align-items: center;
@@ -189,13 +190,12 @@ span {
 }
 .information {
   background-color: #fef2f2;
-  width: 1400px;
+  /* width: 100%; */
   height: 400px;
   text-align: center;
-  margin: 30px 40px 40px 130px;
+  margin: 130px 120px 40px 130px;
   border-radius: 5px;
-  padding-top: 0%;
-  padding-bottom: 50px;
+  padding: 70px 300px;
 }
 .latter-img {
   width: 120px;
@@ -217,13 +217,10 @@ span {
   background-color: #ffffff;
   box-shadow: 2px 2px 30px rgba(167, 157, 254, 0.2);
   display: flex;
-  margin: 30px auto;
+  margin: auto;
   flex-direction: column;
   align-items: center;
-  padding: 40px 20px;
-  margin-top: 20px;
   position: relative;
-  background-size: 1000px;
   border-radius: 10px;
   line-height: 30px;
 }
@@ -287,24 +284,27 @@ span {
   padding: 20px 20px 20px 21px;
 }
 .location {
-  background-color: #070211;
-  color: #ffff;
   display: flex;
   align-items: center;
-  text-align: center;
   justify-content: space-around;
-  height: 500px;
-  width: 110%;
-  margin-top: 20px;
-  border-bottom: 2px solid green;
+  gap: 300px;
 }
-.col-1,
-.col-2 {
-  width: 200px;
-  height: 320px;
+
+.reserve {
+  display: flex;
+  justify-content: space-around;
+  gap: 300px;
+  padding-top: 30px;
 }
-.col-3,
-.col-4 {
-  width: 190px;
-  height: 0px;
+.footer {
+  color: #ffff;
+  margin-top: 90px;
+  background-color: #070211;
+  padding: 80px 0px 60px 0px;
+  border-radius: 2px;
+}
+
+hr {
+  border: 2px solid rgba(245, 240, 240, 0.096);
+  width: 80%;
 }
